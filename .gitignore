@@ -1,18 +1,50 @@
-# Python/Django
-venv/
+# -------------------------
+# Python (Backend)
+# -------------------------
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
 
-# Node/React
-node_modules/
-build/
-dist/
-
-# Environment / Secrets
+# Environment files
 .env
 *.env
-.env.*
 
-# IDE stuff
+# Uploads & test files
+backend/uploads/
+backend/resume.pdf
+*.pdf
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# -------------------------
+# Node / React (Frontend)
+# -------------------------
+node_modules/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# -------------------------
+# Editor / System Junk
+# -------------------------
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
+*.swp
